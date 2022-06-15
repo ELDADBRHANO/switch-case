@@ -65,26 +65,40 @@
 // }
 // }
 
+
+
+
 // 4
-function printColor() {
-  switch (corner.value) {
-    case "top-left":
-      div_id.style = "width:100px; height:200px; top:40px; border-radius:75%; background:"+input_id2.value;
-      break;
-    case "top-right":
-      div_id.style = "width:100px; height:200px; display:flex; float:right; top:40px; border-radius:75%; background:"+input_id2.value;
+// function printSome() {
+//   div_id.innerHTML= input_id3.value 
+//   div_id.style.fontSize=input_id.value+"px"
+//   div_id.style.color=input_id2.value;
+// }
 
-      break;
-    case "botoom-left":
-      div_id.style = "width:100px; height:200px; top:40px; border-radius:75%; background:"+input_id2.value;
 
-      break;
-    case "botoom-right":
-      div_id.style = "width:100px; height:200px; top:40px; border-radius:75%; background:"+input_id2.value;
 
-      break;
-    default:
-      div_id.style = "enter somthing"
-      break;
-  }
-}
+
+
+// 5
+// function printColor() {
+//   switch (corner.value) {
+//     case "top-left":
+//       div_id.style = "width:100px; height:200px; top:40px; border-radius:75%; background:"+input_id2.value;
+//       break;
+//     case "top-right":
+//       div_id.style = "width:100px; height:200px; display:flex; float:right; top:40px; border-radius:75%; background:"+input_id2.value;
+
+//       break;
+//     case "botoom-left":
+//       div_id.style = "width:100px; height:200px; bottom:40px; border-radius:75%; background:"+input_id2.value;
+
+//       break;
+//     case "botoom-right":
+//       div_id.style = "width:100px; height:200px; bottom:40px; border-radius:75%; background:"+input_id2.value;
+
+//       break;
+//     default:
+//       div_id.style = "enter somthing"
+//       break;
+//   }
+// }
